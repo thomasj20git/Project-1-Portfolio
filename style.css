@@ -1,0 +1,29 @@
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(45deg,  #4a6683, #3c9491);
+    color: #f9f9f9;
+}
+#my-portfolio {
+    font-size: 50px;
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+    
+
+}
+@media (min-width: 768px) {
+    #my-potfolio {
+      font-size: 75px;
+    }
+}
+@media (min-width: 960px) {
+    #my-portfolio {
+      font-size: 100px;
+    }
+}
+@media (min-width: 1200px) {
+    #my-portfolio {
+      font-size: 125px;
+    }
+}
