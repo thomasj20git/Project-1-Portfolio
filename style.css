@@ -1,16 +1,17 @@
+body{
+  background-color: lightslategray;
+}
 #header{
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: linear-gradient(45deg,  #4a6683, #3c9491);
+    background-image: linear-gradient(45deg,  #242e68, #2ab1aa);
     color: #f9f9f9;
 }
 #my-portfolio {
     font-size: 50px;
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
-    
-
 }
 @media (min-width: 768px) {
     #my-potfolio {
@@ -26,4 +27,46 @@
     #my-portfolio {
       font-size: 125px;
     }
+}
+#nav-divs{
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid black;
+  
+  margin-bottom: 10px;
+  
+}
+#about-me-container{
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+#about-me-div {
+    color: whitesmoke;
+    font-family: 'Roboto', sans-serif;
+}
+/* change column back to row at some point this is just to test nav bar
+*/
+@media (min-width: 600px) {
+  #about-me-container {
+    flex-direction: column;
+  }
+  #about-me-div {
+    width: 30%;
+  }
+}
+#nav-bar.sticky{
+  position: fixed;
+  width: 100%;
+  background-color: lightslategray;
+  top: 0;
+  left: 0;
+
+}
+
+
+h5{
+  height: 100px;
 }
