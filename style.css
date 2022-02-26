@@ -34,7 +34,6 @@ body{
   color: whitesmoke;
   font-family: 'Roboto', sans-serif;
   border-bottom: 1px solid black;
-  
   margin-bottom: 10px;
   
 }
@@ -86,7 +85,7 @@ body{
   height: 400px;
 }
 
-@media (min-width: 600px) {
+@media (min-width: 650px) {
   #about-me-div {
     display: flex;
     flex-direction: row;
@@ -98,10 +97,106 @@ body{
     height: 500px;
   }
 }
+@media (min-width: 800px) {
+  #about-me-bio-div {
+    font-size: 25px;
+  }
+}
 @media (min-width: 1000px) {
   #my-img {
     height: 700px;
   }
 }
+#projects{
+  margin-top: 25px;
+}
+#project-header{
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-bottom: 10px;
+}
+#project-grid-containers{
+  display: flex;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 25px;
+}
+#project-1{
+  border: 2px solid darkgray;
+  margin: 25px;
+}
+#project-1-header{
+  border-bottom: 2px solid darkgray;
+}
+#project-2{
+  border: 2px solid darkgray;
+  margin: 25px;
+}
+#project-2-header{
+  border-bottom: 2px solid darkgray;
+}
+#project-3{
+  border: 2px solid darkgray;
+  margin: 25px;
+}
+#project-3-header{
+  border-bottom: 2px solid darkgray;
+}
+@media (min-width: 700px) {
+  #project-grid-containers {
+    flex-direction: row;
+  }
+}
+
+
+
+
+
+
+
+
+
+#skills{
+  margin-top: 25px;
+}
+#skills-header{
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+#goals{
+  margin-top: 25px;
+}
+#goals-header{
+  display: flex;
+  justify-content: space-around;
+  color: whitesmoke;
+  font-family: 'Roboto', sans-serif;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  margin-bottom: 10px;
+}
+
 
 
