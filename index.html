@@ -8,29 +8,32 @@ content="width=device-width, initial-scale=1">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <script
+  src="https://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    
     <section id="nav-bar">
         <nav id="nav-divs">
             <div>
-                <h3>About Me</h3>
+                <h3><a href="#" id="about-link">About Me</a></h3>
             </div>
             <div>
-                <h3>Projects</h3>
+                <h3><a href="#" id="project-link">Projects</a></h3>
             </div>
             <div>
-                <h3>Skills</h3>
+                <h3><a href="#" id="skills-link">Skills</a></h3>
             </div>
             <div>
-                <h3>Goals</h3>
+                <h3><a href="#" id="resume-link">Resume</a></h3>
             </div>
         </nav>
     </section>
     <section id="header">
         <div id="header-contents">
-            <h1 id="my-portfolio">My Portfolio.</h1>
+            <h1 id="my-portfolio">My Portfolio</h1>
         </div>
     </section>
     <section id="about-me">
@@ -53,7 +56,6 @@ content="width=device-width, initial-scale=1">
             </div>
         </header>
         <div id="projects-main-container">
-            
             <div id="project-grid-containers">
                 <div id="project-1">
                     <header id="project-1-header">
@@ -62,7 +64,6 @@ content="width=device-width, initial-scale=1">
                     <div>
                         <p>brief desscription and maybe screenshot of my first projects</p>
                     </div>
-
                 </div>
                 <div id="project-2">
                     <header id="project-3-header">
@@ -71,7 +72,6 @@ content="width=device-width, initial-scale=1">
                     <div>
                         <p>brief desscription and maybe screenshot of my first projects</p>
                     </div>
-
                 </div>
                 <div id="project-3">
                     <header id="project-3-header">
@@ -80,14 +80,9 @@ content="width=device-width, initial-scale=1">
                     <div>
                         <p>brief desscription and maybe screenshot of my first projects</p>
                     </div>
-
                 </div>
-            
-
             </div>
-            
         </div>
-
     </section>
 
     <section id="skills">
@@ -96,18 +91,41 @@ content="width=device-width, initial-scale=1">
                 <h1 id="skills-h1">Skills</h1>
             </div>
         </header>
+        <div id="skills-container-main">
+            <div id="skills-info">
+                <h1>Languages</h1>
+                <p> CSS, Javascript, and HTML </p>
+                
+            </div>
+            <div id="skills-info">
+                <h1>Libraries</h1>
+                <p>JQuery</p>
+
+            </div>
+            <div id="skills-info">
+                <h1>Version Control</h1>
+                <p>Git and Github</p>
+            </div>
+            <div id="skills-info">
+                <h1>Skills I want to learn</h1>
+                <p>React and Python</p>
+            </div>
+
+        </div>
         
 
     </section>
 
-    <section id="goals">
-        <header id="goals-header">
-            <div id="goals-header-div">
-                <h1 id="goals-h1">Goals</h1>
+    <section id="resume">
+        <header id="resume-header">
+            <div id="resume-header-div">
+                <h1 id="resume-h1">Resume</h1>
             </div>
         </header>
-        <div>
-            
+        <div id="resume-info">
+            <h1>Work Experience</h1>
+            <h5>H-E-B Service Lead</h5>
+            <p>Worked as a service manager at H-E-B for four years where I led a team of 20-30 people. I assisted customers on anything they needed and made sure to serve them in the best way possible. </p>
         </div>
 
     </section>
