@@ -11,15 +11,14 @@ function fixedNav() {
   }
 }
 window.addEventListener('scroll', fixedNav);
+
 ////////////////////////////////////////////
 
-//$("#about").click(function(){
-  //  $(document).scrollTop(2000)
-  //  });
+
 
 $("#about-link").click(function() {
      $([document.documentElement, document.body]).animate({
-     scrollTop: $("#my-portfolio").offset().top
+     scrollTop: $("#about-me-bio-div").offset().top
      }, 2000);
 });
 $("#project-link").click(function() {
@@ -37,4 +36,27 @@ $("#resume-link").click(function() {
     scrollTop: $("#resume").offset().top
     }, 2000);
 });
+
+/////////////////////////////////////////
+
+const $openBtn = $('#openModal');
+
+const $modal = $('#modal');
+
+const $closeBtn = $('#close');
+
+const openModal = () => {
+    $modal.css('display', 'block');
+}
+
+const closeModal = () => {
+    $modal.css('display', 'none');
     
+        $([document.documentElement, document.body]).animate({
+        scrollTop: $("#projects").offset().top
+        }, 2000);
+    
+}
+
+$openBtn.on('click', openModal);
+$closeBtn.on('click', closeModal);
