@@ -18,7 +18,7 @@ a:hover{
 }
 
 #my-portfolio {
-    font-size: 50px;
+    font-size: 40px;
     color: whitesmoke;
     font-family: 'Roboto', sans-serif;
 }
@@ -296,4 +296,35 @@ footer{
         width: 500px;
         }
   
+}
+
+#accordion-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.accordion {
+  background-color: #eee;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 50%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  border: 1px solid black;
+  border-radius: 2px;
+  text-align: center;
+}
+.active, .accordion:hover {
+  background-color: #ccc;
+}
+.panel {
+  padding: 0 18px;
+  background-color: white;
+  display: none;
+  overflow: hidden;
+  width: 50%;
 }
