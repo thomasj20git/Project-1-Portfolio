@@ -208,17 +208,6 @@ a:hover{
   font-family: 'Roboto', sans-serif;
 }
 
-
-
-
-
-
-
-
-
-
-
-
 #resume{
   margin-top: 25px;
 }
@@ -239,6 +228,24 @@ a:hover{
   color: whitesmoke;
   font-family: 'Roboto', sans-serif;
 }
+#resume-boxes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#work-experience-box{
+  width: 200px;
+}
+#education-boxes{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#school-box{
+  width: 200px;
+}
+
 
 #contact-section{
   display: flex;
@@ -257,11 +264,6 @@ footer{
   height: 100px;
   background-color: lightslategray;
 }
-
-
-
-
-
 
 #modal, #modal2, #modal3 {
   background-color: rgba(0,0,0,0.4);
